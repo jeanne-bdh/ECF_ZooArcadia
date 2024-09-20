@@ -11967,13 +11967,31 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-html {
-  position: relative;
-  min-height: 100%;
+.line_h2 {
+  width: 20%;
+  height: 2px;
+  border: none;
+  background-color: #462F14;
+  opacity: 75%;
 }
 
-main {
-  margin-bottom: 366px;
+h2, .h2 {
+  font-family: "Scada", sans-serif;
+  color: #462F14;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+h3, .h3 {
+  font-family: "Hind Madurai", sans-serif;
+  color: #462F14;
+  padding-top: 10px;
+}
+
+h4, .h4 {
+  font-family: "Scada", sans-serif;
+  color: #FFF7DA;
+  font-size: 21px;
 }
 
 .navbar .navbar-brand {
@@ -11984,17 +12002,6 @@ main {
   color: #FFF7DA;
   padding-right: 50px !important;
   font-size: 22px;
-}
-
-h4, .h4 {
-  font-family: "Scada", sans-serif;
-  color: #FFF7DA;
-  font-size: 21px;
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
 }
 
 .big_title {
@@ -12008,41 +12015,40 @@ footer {
   top: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../images/Accueil/Présentation.jpg);
+  background-image: url(../images/Accueil/Présentation.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
   filter: brightness(0.6);
 }
 .big_title * {
   position: relative;
 }
 
-/* SECTION : PRESENTATION DU ZOO */
-.img_prez {
+.bg_habitats {
+  background-color: #D1EEDB;
+}
+
+img {
   width: 10%;
 }
 
-/* SECTION : NOS HABITATS */
-.habitats_prez {
-  background-color: #D1EEDB;
-}
-
+/* A REVOIR
 .img_habitats {
-  width: 62.5rem;
-  text-align: center;
-  border-radius: 20px;
-}
-
-/* SECTION : NOS SERVICES */
-.services_prez {
+    width: 62.5rem;
+    text-align: center;
+    border-radius: 20px;
+    }
+*/
+.bg_services {
   background-color: #D1EEDB;
 }
 
-/* SECTION : NOS ANIMAUX */
-.animaux_prez {
+.bg_animaux {
   background-color: #D1EEDB;
 }
 
-/* SECTION : AVIS */
-.avis_prez {
+.bg_avis {
   background-color: #76A182;
 }/*# sourceMappingURL=main.css.map */
