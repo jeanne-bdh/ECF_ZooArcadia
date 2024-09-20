@@ -14,5 +14,13 @@
     .nav-link {
         color: $secondary2;
         padding-right: 50px !important;
+        font-size: 22px;
     }
+}
+
+// FOOTER
+h4 {
+    font-family: $font-family-serif;
+    color: $secondary2;
+    font-size: 21px;
 }

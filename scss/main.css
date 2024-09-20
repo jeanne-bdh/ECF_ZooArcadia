@@ -11974,4 +11974,11 @@ textarea.form-control-lg {
 .navbar .nav-link {
   color: #FFF7DA;
   padding-right: 50px !important;
+  font-size: 22px;
+}
+
+h4, .h4 {
+  font-family: "Scada", sans-serif;
+  color: #FFF7DA;
+  font-size: 21px;
 }/*# sourceMappingURL=main.css.map */
