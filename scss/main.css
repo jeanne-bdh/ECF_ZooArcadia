@@ -11999,7 +11999,7 @@ footer {
 
 .big_title {
   position: relative;
-  height: 350px;
+  height: 33vh;
 }
 .big_title::before {
   content: "";
@@ -12014,4 +12014,35 @@ footer {
 }
 .big_title * {
   position: relative;
+}
+
+/* SECTION : PRESENTATION DU ZOO */
+.img_prez {
+  width: 10%;
+}
+
+/* SECTION : NOS HABITATS */
+.habitats_prez {
+  background-color: #D1EEDB;
+}
+
+.img_habitats {
+  width: 62.5rem;
+  text-align: center;
+  border-radius: 20px;
+}
+
+/* SECTION : NOS SERVICES */
+.services_prez {
+  background-color: #D1EEDB;
+}
+
+/* SECTION : NOS ANIMAUX */
+.animaux_prez {
+  background-color: #D1EEDB;
+}
+
+/* SECTION : AVIS */
+.avis_prez {
+  background-color: #76A182;
 }/*# sourceMappingURL=main.css.map */
