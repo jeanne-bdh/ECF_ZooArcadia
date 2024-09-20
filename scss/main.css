@@ -11966,4 +11966,12 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.navbar .navbar-brand {
+  color: #FFF7DA;
+  font-family: "Sigmar One", sans-serif;
+}
+.navbar .nav-link {
+  color: #FFF7DA;
+  padding-right: 50px !important;
 }/*# sourceMappingURL=main.css.map */
