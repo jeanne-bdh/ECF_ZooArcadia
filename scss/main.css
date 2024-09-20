@@ -11967,6 +11967,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+main {
+  margin-bottom: 366px;
+}
+
 .navbar .navbar-brand {
   color: #FFF7DA;
   font-family: "Sigmar One", sans-serif;
@@ -11981,4 +11990,28 @@ h4, .h4 {
   font-family: "Scada", sans-serif;
   color: #FFF7DA;
   font-size: 21px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.big_title {
+  position: relative;
+  height: 350px;
+}
+.big_title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/Accueil/Présentation.jpg);
+  background-size: cover;
+  filter: brightness(0.6);
+}
+.big_title * {
+  position: relative;
 }/*# sourceMappingURL=main.css.map */

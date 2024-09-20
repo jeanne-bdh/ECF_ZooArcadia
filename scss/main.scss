@@ -4,6 +4,18 @@
 // FONTS
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Scada:ital,wght@0,400;0,700;1,400;1,700&family=Sigmar+One&display=swap');
 
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+main {
+    margin-bottom: 366px;
+}
+
+
 // NAVBAR
 .navbar {
     .navbar-brand {
@@ -18,9 +30,39 @@
     }
 }
 
+
 // FOOTER
 h4 {
     font-family: $font-family-serif;
     color: $secondary2;
     font-size: 21px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+
+// BIG TITLE - A REVOIR
+.big_title {
+    position: relative;
+    height: 350px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/Accueil/Présentation.jpg);
+        background-size: cover;
+        filter: brightness(0.6);
+    }
+
+    * {
+        // Positionner les éléments devant le ::before
+        position: relative;
+    }
 }
