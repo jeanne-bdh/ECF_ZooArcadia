@@ -12088,4 +12088,15 @@ img {
 }
 .container_services img {
   border-radius: 5px;
+}
+
+.container_habitats {
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.container_habitats img {
+  width: 50%;
+  border-radius: 50%;
 }/*# sourceMappingURL=main.css.map */
