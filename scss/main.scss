@@ -9,14 +9,14 @@
     width: 20%;
     height: 2px;
     border: none;
-    background-color: $bgDark;
+    background-color: $bg-dark;
     opacity: 75%;
 }
 
 
 h2 {
     font-family: $font-family-serif;
-    color: $bgDark;
+    color: $bg-dark;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -24,7 +24,7 @@ h2 {
 
 h3 {
     font-family: $font-family-sans-serif;
-    color: $bgDark;
+    color: $bg-dark;
     padding-top: 10px;
 }
 
@@ -111,4 +111,8 @@ img {
 // SECTION : AVIS
 .bg_avis {
     background-color: $primary;
+}
+
+.btn-bg-dark {
+    background-color: $bg-dark;
 }
