@@ -11967,6 +11967,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+h1, .h1 {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Scada", sans-serif;
+  font-size: 60px;
+}
+
 .line_h2 {
   width: 20%;
   height: 2px;
@@ -11993,6 +12001,17 @@ h4, .h4 {
   font-family: "Scada", sans-serif;
   color: #FFF7DA;
   font-size: 21px;
+}
+
+h6, .h6 {
+  font-family: "Scada", sans-serif;
+  color: #1B4B28;
+  font-size: 25px;
+}
+
+.btn-bg-dark {
+  background-color: #462F14;
+  color: white;
 }
 
 .navbar .navbar-brand {
@@ -12027,14 +12046,6 @@ h4, .h4 {
   position: relative;
 }
 
-h1, .h1 {
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "Scada", sans-serif;
-  font-size: 60px;
-}
-
 .bg_habitats {
   background-color: #D1EEDB;
 }
@@ -12060,10 +12071,6 @@ img {
 
 .bg_avis {
   background-color: #76A182;
-}
-
-.btn-bg-dark {
-  background-color: #462F14;
 }
 
 .container_services {
@@ -12099,4 +12106,19 @@ img {
 .container_habitats img {
   width: 50%;
   border-radius: 50%;
+}
+
+.title_signin {
+  font-family: "Scada", sans-serif;
+}
+
+.container_signin {
+  background-color: #D1EEDB;
+  padding: 50px;
+}
+.container_signin .container_form {
+  background-color: #A6C5B1;
+  padding: 50px;
+  border-radius: 10px;
+  border: 1px solid #1B4B28;
 }/*# sourceMappingURL=main.css.map */

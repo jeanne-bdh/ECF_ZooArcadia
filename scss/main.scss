@@ -5,6 +5,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Scada:ital,wght@0,400;0,700;1,400;1,700&family=Sigmar+One&display=swap');
 
 
+
+h1 {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: $font-family-serif;
+    font-size: 60px;
+}
+
+
 .line_h2 {
     width: 20%;
     height: 2px;
@@ -34,6 +44,21 @@ h4 {
     font-family: $font-family-serif;
     color: $secondary2;
     font-size: 21px;
+}
+
+h5 {}
+
+
+h6 {
+    font-family: $font-family-serif;
+    color: $dark;
+    font-size: 25px;
+}
+
+
+.btn-bg-dark {
+    background-color: $browndark;
+    color: white;
 }
 
 
@@ -78,14 +103,6 @@ h4 {
     }
 }
 
-h1 {
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: $font-family-serif;
-    font-size: 60px;
-}
-
 
 // SECTION : NOS HABITATS
 .bg_habitats {
@@ -122,9 +139,6 @@ img {
     background-color: $primary;
 }
 
-.btn-bg-dark {
-    background-color: $browndark;
-}
 
 // PAGE : NOS SERVICES
 .container_services {
@@ -167,5 +181,23 @@ img {
     img {
         width: 50%;
         border-radius: 50%;
+    }
+}
+
+
+// PAGE : CONNEXION 
+.title_signin {
+    font-family: $font-family-serif;
+}
+
+.container_signin {
+    background-color: $secondary1;
+    padding: 50px;
+
+    .container_form {
+        background-color: #A6C5B1;
+        padding: 50px;
+        border-radius: 10px;
+        border: 1px solid $dark;
     }
 }
