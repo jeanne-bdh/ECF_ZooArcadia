@@ -9,14 +9,15 @@
     width: 20%;
     height: 2px;
     border: none;
-    background-color: $bg-dark;
+    background-color: $browndark;
     opacity: 75%;
 }
 
 
 h2 {
     font-family: $font-family-serif;
-    color: $bg-dark;
+    color: $browndark;
+    text-align: center;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -24,7 +25,7 @@ h2 {
 
 h3 {
     font-family: $font-family-sans-serif;
-    color: $bg-dark;
+    color: $browndark;
     padding-top: 10px;
 }
 
@@ -77,6 +78,14 @@ h4 {
     }
 }
 
+h1 {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: $font-family-serif;
+    font-size: 60px;
+}
+
 
 // SECTION : NOS HABITATS
 .bg_habitats {
@@ -114,5 +123,35 @@ img {
 }
 
 .btn-bg-dark {
-    background-color: $bg-dark;
+    background-color: $browndark;
+}
+
+// PAGE : NOS SERVICES
+.container_services {
+    background-color: $secondary2;
+
+    article {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        color: $dark;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    ul {
+        color: $browndark;
+    }
+
+    img {
+        border-radius: 5px;
+    }
 }
