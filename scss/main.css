@@ -12099,6 +12099,22 @@ h5, .h5 {
   background-color: #D1EEDB;
 }
 
+#carouselHome {
+  width: 1000px;
+  height: 400px;
+  margin: auto;
+}
+#carouselHome .carousel-inner {
+  width: 1000px;
+  height: 400px;
+}
+#carouselHome img {
+  width: 1000px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .bg_avis {
   background-color: #76A182;
 }

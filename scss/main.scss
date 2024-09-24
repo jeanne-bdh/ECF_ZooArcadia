@@ -157,6 +157,24 @@ h5 {
     background-color: $secondary1;
 }
 
+#carouselHome {
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+
+    .carousel-inner {
+        width: 1000px;
+        height: 400px;
+    }
+
+    img {
+        width: 1000px;
+        height: 400px;
+        object-fit: cover;
+    }
+}
+
+
 
 // PAGE : HOME - SECTION : AVIS
 .bg_avis {
