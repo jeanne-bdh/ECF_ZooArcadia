@@ -46,6 +46,7 @@ h4 {
     font-size: 21px;
 }
 
+// home : pseudo des avis
 h5 {}
 
 
@@ -64,6 +65,10 @@ h6 {
 
 // NAVBAR
 .navbar {
+    /* A REVOIR img {
+        width: 5%;
+    }*/
+
     .navbar-brand {
         color: $secondary2;
         font-family: $font-family-display;
@@ -104,37 +109,61 @@ h6 {
 }
 
 
-// SECTION : NOS HABITATS
+// PAGE : HOME - SECTION : NOS HABITATS
 .bg_habitats {
     background-color: $secondary1;
 }
 
-img {
-    width: 10%;
+.img_home_savane {
+    width: 1000px;
+    height: 280px;
+    background-image: url(../images/Savane/Savane.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-top: 50px;
 }
 
-/* A REVOIR
-.img_habitats {
-    width: 62.5rem;
-    text-align: center;
-    border-radius: 20px;
-    }
-*/
+.img_home_jungle {
+    width: 1000px;
+    height: 280px;
+    background-image: url(../images/Jungle/Jungle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.img_home_marais {
+    width: 1000px;
+    height: 280px;
+    background-image: url(../images/Marais/Marais.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-top: 50px;
+}
 
 
-// SECTION : NOS SERVICES
+// PAGE : HOME - SECTION : NOS SERVICES
 .bg_services {
     background-color: $secondary1;
 }
 
 
-// SECTION : NOS ANIMAUX
+// PAGE : HOME - SECTION : NOS ANIMAUX
 .bg_animaux {
     background-color: $secondary1;
 }
 
 
-// SECTION : AVIS
+// PAGE : HOME - SECTION : AVIS
 .bg_avis {
     background-color: $primary;
 }
