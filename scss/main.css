@@ -12007,6 +12007,7 @@ h5, .h5 {
   font-family: "Scada", sans-serif;
   color: #1B4B28;
   font-size: 25px;
+  text-align: center;
 }
 
 .btn-bg-dark {
@@ -12165,8 +12166,13 @@ h5, .h5 {
   padding: 50px;
 }
 .container_signin .container_form {
+  width: 450px;
   background-color: #A6C5B1;
-  padding: 50px;
   border-radius: 10px;
   border: 1px solid #1B4B28;
+  padding: 50px;
+  margin: auto;
+}
+.container_signin .container_form img {
+  width: 8%;
 }/*# sourceMappingURL=main.css.map */
