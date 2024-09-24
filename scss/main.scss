@@ -150,6 +150,15 @@ h5 {
 // PAGE : HOME - SECTION : NOS SERVICES
 .bg_services {
     background-color: $secondary1;
+
+    p {
+        font-size: large;
+    }
+
+    svg {
+        width: 20%;
+        fill: $dark;
+    }
 }
 
 
@@ -249,7 +258,6 @@ h5 {
 
         svg {
             width: 8%;
-
         }
 
     }

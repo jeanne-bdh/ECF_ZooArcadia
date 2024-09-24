@@ -12095,6 +12095,13 @@ h5, .h5 {
 .bg_services {
   background-color: #D1EEDB;
 }
+.bg_services p {
+  font-size: large;
+}
+.bg_services svg {
+  width: 20%;
+  fill: #1B4B28;
+}
 
 .bg_animaux {
   background-color: #D1EEDB;
