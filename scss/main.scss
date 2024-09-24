@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Scada:ital,wght@0,400;0,700;1,400;1,700&family=Sigmar+One&display=swap');
 
 
-
+// BIG TITLE
 h1 {
     color: white;
     margin-left: auto;
@@ -14,6 +14,14 @@ h1 {
     font-size: 60px;
 }
 
+// PAGE : HOME - TITRES DES SECTIONS : Nos habitats, Nos services, Nos animaux, Avis de nos visiteurs
+h2 {
+    font-family: $font-family-serif;
+    color: $browndark;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
 
 .line_h2 {
     width: 20%;
@@ -23,39 +31,26 @@ h1 {
     opacity: 75%;
 }
 
-
-h2 {
-    font-family: $font-family-serif;
-    color: $browndark;
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-
+// PAGE : HOME - TITRES DES HABITATS
 h3 {
     font-family: $font-family-sans-serif;
     color: $browndark;
     padding-top: 10px;
 }
 
-
+// FOOTER - TITRES DES SECTIONS
 h4 {
     font-family: $font-family-serif;
     color: $secondary2;
     font-size: 21px;
 }
 
-// home : pseudo des avis
-h5 {}
-
-
-h6 {
+// PAGE : SIGNIN - TITRE CONNEXION
+h5 {
     font-family: $font-family-serif;
     color: $dark;
     font-size: 25px;
 }
-
 
 .btn-bg-dark {
     background-color: $browndark;

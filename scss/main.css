@@ -11975,20 +11975,20 @@ h1, .h1 {
   font-size: 60px;
 }
 
-.line_h2 {
-  width: 20%;
-  height: 2px;
-  border: none;
-  background-color: #462F14;
-  opacity: 75%;
-}
-
 h2, .h2 {
   font-family: "Scada", sans-serif;
   color: #462F14;
   text-align: center;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.line_h2 {
+  width: 20%;
+  height: 2px;
+  border: none;
+  background-color: #462F14;
+  opacity: 75%;
 }
 
 h3, .h3 {
@@ -12003,7 +12003,7 @@ h4, .h4 {
   font-size: 21px;
 }
 
-h6, .h6 {
+h5, .h5 {
   font-family: "Scada", sans-serif;
   color: #1B4B28;
   font-size: 25px;
