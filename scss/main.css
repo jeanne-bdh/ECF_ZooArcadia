@@ -12127,6 +12127,7 @@ h5, .h5 {
   justify-content: space-evenly;
   align-items: center;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 .container_services h2, .container_services .h2 {
   font-size: 1.5rem;
@@ -12140,6 +12141,7 @@ h5, .h5 {
   color: #462F14;
 }
 .container_services img {
+  width: 25%;
   border-radius: 5px;
 }
 
