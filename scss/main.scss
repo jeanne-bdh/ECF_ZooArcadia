@@ -1,26 +1,24 @@
 @import url(/node_modules/bootstrap-icons/font/bootstrap-icons.css);
 @import 'custom';
 
-// FONTS
+// Fonts
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Scada:ital,wght@0,400;0,700;1,400;1,700&family=Sigmar+One&display=swap');
 
 
-// BIG TITLE
+// Big title
 h1 {
     color: white;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     font-family: $font-family-serif;
     font-size: 60px;
 }
 
-// PAGE : HOME - TITRES DES SECTIONS : Nos habitats, Nos services, Nos animaux, Avis de nos visiteurs
+// Page : home - Titres des sections (Nos habitats, Nos services, Nos animaux, Avis de nos visiteurs)
 h2 {
     font-family: $font-family-serif;
     color: $browndark;
     text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-inline: 40px;
 }
 
 .line_h2 {
@@ -31,54 +29,63 @@ h2 {
     opacity: 75%;
 }
 
-// PAGE : HOME - TITRES DES HABITATS
+// Page : home - Titres des habitats
 h3 {
     font-family: $font-family-sans-serif;
     color: $browndark;
     padding-top: 10px;
 }
 
-// FOOTER - TITRES DES SECTIONS
+// Page : signin - Titre connexion
 h4 {
     font-family: $font-family-serif;
-    color: $secondary2;
-    font-size: 21px;
-}
-
-// PAGE : SIGNIN - TITRE CONNEXION
-h5 {
-    font-family: $font-family-serif;
+    font-size: xx-large;
     color: $dark;
-    font-size: 25px;
     text-align: center;
 }
 
+// Footer - Titres des sections
+h5 {
+    font-family: $font-family-serif;
+    color: $secondary2;
+}
+
+// Bouton
 .btn-bg-dark {
     background-color: $browndark;
     color: white;
 }
 
+// Navbar
+.navbar-brand {
+    color: $secondary2;
+    font-family: $font-family-display;
+}
 
-// NAVBAR
-.navbar {
-    /* A REVOIR img {
-        width: 5%;
-    }*/
+.nav-link {
+    color: $secondary2;
+    padding-right: 50px !important;
+    font-size: large;
+}
 
-    .navbar-brand {
-        color: $secondary2;
-        font-family: $font-family-display;
+// Footer
+footer {
+    p {
+        font-size: small;
     }
 
-    .nav-link {
-        color: $secondary2;
-        padding-right: 50px !important;
-        font-size: 22px;
+    a {
+        color: white;
+
+        i {
+            font-size: xx-large;
+            margin-inline-start: 15px;
+        }
     }
 }
 
 
-// BIG TITLE
+// Big title
 .big_title {
     position: relative;
     height: 33vh;
@@ -105,7 +112,7 @@ h5 {
 }
 
 
-// PAGE : HOME - SECTION : NOS HABITATS
+// Page : home - Section : Nos habitats
 .bg_habitats {
     background-color: $secondary1;
 }
@@ -147,7 +154,7 @@ h5 {
 }
 
 
-// PAGE : HOME - SECTION : NOS SERVICES
+// Page : home - Section : Nos services
 .bg_services {
     background-color: $secondary1;
 
@@ -162,7 +169,7 @@ h5 {
 }
 
 
-// PAGE : HOME - SECTION : NOS ANIMAUX
+// Page : home - Section :  Nos animaux
 .bg_animaux {
     background-color: $secondary1;
 }
@@ -185,14 +192,13 @@ h5 {
 }
 
 
-
-// PAGE : HOME - SECTION : AVIS
+// Page : home - Section : Avis
 .bg_avis {
     background-color: $primary;
 }
 
 
-// PAGE : NOS SERVICES
+// Page : Nos services
 .container_services {
     background-color: $secondary2;
 
@@ -200,12 +206,12 @@ h5 {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-block: 50px;
+
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: x-large;
     }
 
     p {
@@ -225,12 +231,9 @@ h5 {
 }
 
 
-// PAGE : NOS HABITATS
+// Page : Nos habitats
 .container_habitats {
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 300px 40px 300px;
 
     img {
         width: 50%;
@@ -239,7 +242,7 @@ h5 {
 }
 
 
-// PAGE : CONNEXION 
+// Page : Connexion 
 .title_signin {
     font-family: $font-family-serif;
 }
@@ -259,7 +262,5 @@ h5 {
         svg {
             width: 8%;
         }
-
     }
-
 }

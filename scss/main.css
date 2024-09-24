@@ -11969,8 +11969,7 @@ textarea.form-control-lg {
 }
 h1, .h1 {
   color: white;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   font-family: "Scada", sans-serif;
   font-size: 60px;
 }
@@ -11979,8 +11978,7 @@ h2, .h2 {
   font-family: "Scada", sans-serif;
   color: #462F14;
   text-align: center;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-inline: 40px;
 }
 
 .line_h2 {
@@ -11999,15 +11997,14 @@ h3, .h3 {
 
 h4, .h4 {
   font-family: "Scada", sans-serif;
-  color: #FFF7DA;
-  font-size: 21px;
+  font-size: xx-large;
+  color: #1B4B28;
+  text-align: center;
 }
 
 h5, .h5 {
   font-family: "Scada", sans-serif;
-  color: #1B4B28;
-  font-size: 25px;
-  text-align: center;
+  color: #FFF7DA;
 }
 
 .btn-bg-dark {
@@ -12015,19 +12012,26 @@ h5, .h5 {
   color: white;
 }
 
-.navbar {
-  /* A REVOIR img {
-      width: 5%;
-  }*/
-}
-.navbar .navbar-brand {
+.navbar-brand {
   color: #FFF7DA;
   font-family: "Sigmar One", sans-serif;
 }
-.navbar .nav-link {
+
+.nav-link {
   color: #FFF7DA;
   padding-right: 50px !important;
-  font-size: 22px;
+  font-size: large;
+}
+
+footer p {
+  font-size: small;
+}
+footer a {
+  color: white;
+}
+footer a i {
+  font-size: xx-large;
+  margin-inline-start: 15px;
 }
 
 .big_title {
@@ -12134,11 +12138,10 @@ h5, .h5 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-block: 50px;
 }
 .container_services h2, .container_services .h2 {
-  font-size: 1.5rem;
+  font-size: x-large;
 }
 .container_services p {
   color: #1B4B28;
@@ -12154,10 +12157,7 @@ h5, .h5 {
 }
 
 .container_habitats {
-  padding-left: 300px;
-  padding-right: 300px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 300px 40px 300px;
 }
 .container_habitats img {
   width: 50%;
