@@ -21,6 +21,7 @@ h2 {
     padding-inline: 40px;
 }
 
+// Page : home
 .line_h2 {
     width: 20%;
     height: 2px;
@@ -63,6 +64,18 @@ h5 {
     }
 }
 
+
+// Background $secondary1
+.container_bg_secondary1 {
+    background-color: $secondary1;
+}
+
+// Background $secondary2
+.container_bg_secondary2 {
+    background-color: $secondary2;
+}
+
+
 // Navbar
 .navbar-brand {
     color: $secondary2;
@@ -74,6 +87,7 @@ h5 {
     padding-right: 50px !important;
     font-size: large;
 }
+
 
 // Footer
 footer {
@@ -92,7 +106,7 @@ footer {
 }
 
 
-// Big title
+// Big title (pages : Nos habitats, nos services, Contact)
 .big_title {
     position: relative;
     height: 33vh;
@@ -119,11 +133,22 @@ footer {
 }
 
 
-// Page : home - Section : Nos habitats
-.bg_habitats {
-    background-color: $secondary1;
+// Texte big title sur les formulaires (connexion, contact, rédaction d'avis)
+.title_text_form {
+    font-family: $font-family-serif;
 }
 
+.container_form_style {
+    width: 450px;
+    background-color: $greenform;
+    border-radius: 10px;
+    border: 1px solid $dark;
+    padding: 50px;
+    margin: auto;
+}
+
+
+// Page : home - Section : Nos habitats
 .img_home_savane {
     width: 1000px;
     height: 280px;
@@ -162,8 +187,7 @@ footer {
 
 
 // Page : home - Section : Nos services
-.bg_services {
-    background-color: $secondary1;
+#style_section_services {
 
     p {
         font-size: large;
@@ -177,10 +201,6 @@ footer {
 
 
 // Page : home - Section :  Nos animaux
-.bg_animaux {
-    background-color: $secondary1;
-}
-
 #carouselHome {
     width: 1000px;
     height: 400px;
@@ -221,8 +241,7 @@ footer {
 
 
 // Page : Nos services
-.container_services {
-    background-color: $secondary2;
+#style_services {
 
     article {
         display: flex;
@@ -265,30 +284,14 @@ footer {
 
 
 // Page : Connexion 
-.title_signin {
-    font-family: $font-family-serif;
-}
-
-.container_signin {
-    background-color: $secondary1;
-    padding: 50px;
-
-    .container_form {
-        width: 450px;
-        background-color: #A6C5B1;
-        border-radius: 10px;
-        border: 1px solid $dark;
-        padding: 50px;
-        margin: auto;
-
-        svg {
-            width: 8%;
-        }
+.form_signin {
+    svg {
+        width: 8%;
     }
 }
 
 
 // Page : Contact
-.container_form_contact {
+#container_form_contact {
     width: 900px !important;
 }

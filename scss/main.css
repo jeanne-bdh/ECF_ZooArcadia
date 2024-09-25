@@ -12018,6 +12018,14 @@ h5, .h5 {
   background-color: #FFF7DA;
 }
 
+.container_bg_secondary1 {
+  background-color: #D1EEDB;
+}
+
+.container_bg_secondary2 {
+  background-color: #FFF7DA;
+}
+
 .navbar-brand {
   color: #FFF7DA;
   font-family: "Sigmar One", sans-serif;
@@ -12062,8 +12070,17 @@ footer a i {
   position: relative;
 }
 
-.bg_habitats {
-  background-color: #D1EEDB;
+.title_text_form {
+  font-family: "Scada", sans-serif;
+}
+
+.container_form_style {
+  width: 450px;
+  background-color: #A6C5B1;
+  border-radius: 10px;
+  border: 1px solid #1B4B28;
+  padding: 50px;
+  margin: auto;
 }
 
 .img_home_savane {
@@ -12102,19 +12119,12 @@ footer a i {
   margin-top: 50px;
 }
 
-.bg_services {
-  background-color: #D1EEDB;
-}
-.bg_services p {
+#style_section_services p {
   font-size: large;
 }
-.bg_services svg {
+#style_section_services svg {
   width: 20%;
   fill: #1B4B28;
-}
-
-.bg_animaux {
-  background-color: #D1EEDB;
 }
 
 #carouselHome {
@@ -12147,27 +12157,24 @@ footer a i {
   color: #FFF7DA !important;
 }
 
-.container_services {
-  background-color: #FFF7DA;
-}
-.container_services article {
+#style_services article {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding-block: 50px;
 }
-.container_services h2, .container_services .h2 {
+#style_services h2, #style_services .h2 {
   font-size: x-large;
 }
-.container_services p {
+#style_services p {
   color: #1B4B28;
   text-align: center;
   padding-top: 5px;
 }
-.container_services ul {
+#style_services ul {
   color: #462F14;
 }
-.container_services img {
+#style_services img {
   width: 25%;
   border-radius: 5px;
 }
@@ -12180,26 +12187,10 @@ footer a i {
   border-radius: 50%;
 }
 
-.title_signin {
-  font-family: "Scada", sans-serif;
-}
-
-.container_signin {
-  background-color: #D1EEDB;
-  padding: 50px;
-}
-.container_signin .container_form {
-  width: 450px;
-  background-color: #A6C5B1;
-  border-radius: 10px;
-  border: 1px solid #1B4B28;
-  padding: 50px;
-  margin: auto;
-}
-.container_signin .container_form svg {
+.form_signin svg {
   width: 8%;
 }
 
-.container_form_contact {
+#container_form_contact {
   width: 900px !important;
 }/*# sourceMappingURL=main.css.map */
