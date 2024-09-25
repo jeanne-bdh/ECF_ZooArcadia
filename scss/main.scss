@@ -56,6 +56,11 @@ h5 {
     color: white;
     margin-top: 1.5rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
+
+    &:hover {
+        color: $browndark;
+        background-color: $secondary2;
+    }
 }
 
 // Navbar
@@ -197,6 +202,21 @@ footer {
 // Page : home - Section : Avis
 .bg_avis {
     background-color: $primary;
+
+    svg {
+        width: 20%;
+        fill: $secondary2;
+
+        :hover {
+            fill: $dark;
+        }
+    }
+
+    .lien_avis {
+        &:hover {
+            color: $secondary2 !important;
+        }
+    }
 }
 
 

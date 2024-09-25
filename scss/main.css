@@ -12013,6 +12013,10 @@ h5, .h5 {
   margin-top: 1.5rem;
   padding: 0.5rem 1rem 0.5rem 1rem;
 }
+.btn-bg-dark:hover {
+  color: #462F14;
+  background-color: #FFF7DA;
+}
 
 .navbar-brand {
   color: #FFF7DA;
@@ -12131,6 +12135,16 @@ footer a i {
 
 .bg_avis {
   background-color: #76A182;
+}
+.bg_avis svg {
+  width: 20%;
+  fill: #FFF7DA;
+}
+.bg_avis svg :hover {
+  fill: #1B4B28;
+}
+.bg_avis .lien_avis:hover {
+  color: #FFF7DA !important;
 }
 
 .container_services {
