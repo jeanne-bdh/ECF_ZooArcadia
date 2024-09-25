@@ -12083,38 +12083,11 @@ footer a i {
   margin: auto;
 }
 
-.img_home_savane {
+#home_section_habitats img {
   width: 1000px;
   height: 280px;
-  background-image: url(../images/Savane/Savane.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  overflow: hidden;
-  border-radius: 15px;
-  margin-top: 50px;
-}
-
-.img_home_jungle {
-  width: 1000px;
-  height: 280px;
-  background-image: url(../images/Jungle/Jungle.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  overflow: hidden;
-  border-radius: 15px;
-  margin-top: 50px;
-}
-
-.img_home_marais {
-  width: 1000px;
-  height: 280px;
-  background-image: url(../images/Marais/Marais.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 15px;
   margin-top: 50px;
 }

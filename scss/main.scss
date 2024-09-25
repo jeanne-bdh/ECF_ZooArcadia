@@ -149,40 +149,14 @@ footer {
 
 
 // Page : home - Section : Nos habitats
-.img_home_savane {
-    width: 1000px;
-    height: 280px;
-    background-image: url(../images/Savane/Savane.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: hidden;
-    border-radius: 15px;
-    margin-top: 50px;
-}
-
-.img_home_jungle {
-    width: 1000px;
-    height: 280px;
-    background-image: url(../images/Jungle/Jungle.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: hidden;
-    border-radius: 15px;
-    margin-top: 50px;
-}
-
-.img_home_marais {
-    width: 1000px;
-    height: 280px;
-    background-image: url(../images/Marais/Marais.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: hidden;
-    border-radius: 15px;
-    margin-top: 50px;
+#home_section_habitats {
+    img {
+        width: 1000px;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 15px;
+        margin-top: 50px;
+    }
 }
 
 
