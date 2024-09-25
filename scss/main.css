@@ -12182,4 +12182,8 @@ footer a i {
 }
 .container_signin .container_form svg {
   width: 8%;
+}
+
+.container_form_contact {
+  width: 900px !important;
 }/*# sourceMappingURL=main.css.map */
