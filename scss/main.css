@@ -12169,4 +12169,17 @@ footer a i {
 
 #container_form_contact {
   width: 900px !important;
+}
+
+.animal_habitat img {
+  width: 240px;
+  height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.animal_habitat .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */

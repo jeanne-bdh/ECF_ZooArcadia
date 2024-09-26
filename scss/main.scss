@@ -271,3 +271,20 @@ footer {
 #container_form_contact {
     width: 900px !important;
 }
+
+
+// Page : Savane, Jungle, Marais
+.animal_habitat {
+    img {
+        width: 240px;
+        height: 240px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
