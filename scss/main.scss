@@ -1,0 +1,290 @@
+@import url(/node_modules/bootstrap-icons/font/bootstrap-icons.css);
+@import 'custom';
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Scada:ital,wght@0,400;0,700;1,400;1,700&family=Sigmar+One&display=swap');
+
+
+// Big title
+h1 {
+    color: white;
+    margin: 0 auto;
+    font-family: $font-family-serif;
+    font-size: 60px;
+}
+
+// Page : home - Titres des sections (Nos habitats, Nos services, Nos animaux, Avis de nos visiteurs)
+h2 {
+    font-family: $font-family-serif;
+    color: $browndark;
+    text-align: center;
+    padding-inline: 40px;
+}
+
+// Page : home
+.line_h2 {
+    width: 20%;
+    height: 2px;
+    border: none;
+    background-color: $browndark;
+    opacity: 75%;
+}
+
+// Page : home - Titres des habitats
+h3 {
+    font-family: $font-family-sans-serif;
+    color: $browndark;
+    padding-top: 10px;
+}
+
+// Page : signin - Titre connexion
+h4 {
+    font-family: $font-family-serif;
+    font-size: xx-large;
+    color: $dark;
+    text-align: center;
+}
+
+// Footer - Titres des sections
+h5 {
+    font-family: $font-family-serif;
+    color: $secondary2;
+}
+
+// Bouton
+.btn-bg-dark {
+    background-color: $browndark;
+    color: white;
+    margin-top: 1.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+
+    &:hover {
+        color: $browndark;
+        background-color: $secondary2;
+    }
+}
+
+
+// Background $secondary1
+.container_bg_secondary1 {
+    background-color: $secondary1;
+}
+
+// Background $secondary2
+.container_bg_secondary2 {
+    background-color: $secondary2;
+}
+
+
+// Navbar
+.navbar-brand {
+    color: $secondary2;
+    font-family: $font-family-display;
+}
+
+.nav-link {
+    color: $secondary2;
+    padding-right: 50px !important;
+    font-size: large;
+}
+
+
+// Footer
+footer {
+    p {
+        font-size: small;
+    }
+
+    a {
+        color: white;
+
+        i {
+            font-size: xx-large;
+            margin-inline-start: 15px;
+        }
+    }
+}
+
+
+// Big title (pages : Nos habitats, nos services, Contact)
+.big_title {
+    position: relative;
+    height: 33vh;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/Accueil/Présentation.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow: hidden;
+        filter: brightness(0.6);
+    }
+
+    * {
+        // Positionner les éléments devant le ::before
+        position: relative;
+    }
+}
+
+
+// Texte big title sur les formulaires (connexion, contact, rédaction d'avis)
+.title_text_form {
+    font-family: $font-family-serif;
+}
+
+.container_form_style {
+    width: 450px;
+    background-color: $greenform;
+    border-radius: 10px;
+    border: 1px solid $dark;
+    padding: 50px;
+    margin: auto;
+}
+
+
+// Page : home - Section : Nos habitats
+#home_section_habitats {
+    img {
+        width: 1000px;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 15px;
+        margin-top: 50px;
+    }
+}
+
+
+// Page : home - Section : Nos services
+#style_section_services {
+
+    p {
+        font-size: large;
+    }
+
+    svg {
+        width: 20%;
+        fill: $dark;
+    }
+}
+
+
+// Page : home - Section :  Nos animaux
+#carouselHome {
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+
+    .carousel-inner {
+        width: 1000px;
+        height: 400px;
+    }
+
+    img {
+        width: 1000px;
+        height: 400px;
+        object-fit: cover;
+    }
+}
+
+
+// Page : home - Section : Avis
+.bg_avis {
+    background-color: $primary;
+
+    svg {
+        width: 20%;
+        fill: $secondary2;
+
+        :hover {
+            fill: $dark;
+        }
+    }
+
+    .lien_avis {
+        &:hover {
+            color: $secondary2 !important;
+        }
+    }
+}
+
+
+// Page : Nos services
+#style_services {
+
+    article {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-block: 50px;
+
+    }
+
+    h2 {
+        font-size: x-large;
+    }
+
+    p {
+        color: $dark;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    ul {
+        color: $browndark;
+    }
+
+    img {
+        width: 25%;
+        border-radius: 5px;
+    }
+}
+
+
+// Page : Nos habitats
+.container_habitats {
+    padding: 40px 100px 40px 100px;
+
+    img {
+        width: 500px;
+        height: 270px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
+
+
+// Page : Connexion 
+.form_signin {
+    svg {
+        width: 8%;
+    }
+}
+
+
+// Page : Contact
+#container_form_contact {
+    width: 900px !important;
+}
+
+
+// Page : Savane, Jungle, Marais
+.animal_habitat {
+    img {
+        width: 240px;
+        height: 240px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

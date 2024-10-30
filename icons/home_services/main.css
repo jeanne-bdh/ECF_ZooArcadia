@@ -1,0 +1,35 @@
+body {
+    background-color: azure;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse; // Pour afficher les étoiles de droite à gauche
+    justify-content: center;
+
+    input[type="radio"] {
+        display: none; // Cacher les boutons radio
+    }
+
+    label {
+        font-size: 2rem;
+        color: lightgray; // Couleur par défaut pour les étoiles non sélectionnées
+        cursor: pointer;
+        padding: 0 5px;
+
+        &:before {
+            content: "\2605"; // Icône étoile pleine (caractère unicode)
+        }
+
+        // Changer la couleur de l'étoile au survol
+        &:hover,
+        &:hover~label {
+            color: #ffc107; // Couleur des étoiles au survol (par exemple, jaune)
+        }
+
+        // Appliquer la couleur jaune lorsque l'étoile est sélectionnée
+        input[type="radio"]:checked~label {
+            color: #ffc107;
+        }
+    }
+}
