@@ -11,7 +11,7 @@
     <div class="container_form_style d-flex justify-content-center align-items-center">
         <div>
             <h4>CONNEXION</h4>
-            <form>
+            <form action="signinPost.php" method="POST">
                 <div class="form_signin">
                     <div class="ms-4 mt-5 mb-3"">
                         <label for=" InputEmail" class="form-label ms-5 ps-4">Identifiant :</label>
