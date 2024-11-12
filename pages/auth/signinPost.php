@@ -4,6 +4,9 @@ $dsn = 'mysql:host=127.0.0.1;port=3306;dbname=zooArcadia';
 $username = 'user_php_arcadia';
 $password = 'G-m1mdppmu_pA';
 
+$hashedPassword = password_hash('JsBLv$dzAeun1', PASSWORD_DEFAULT);
+echo $hashedPassword
+
 try {
     $pdo = new PDO($dsn, $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
