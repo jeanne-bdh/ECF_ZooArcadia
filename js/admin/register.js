@@ -3,7 +3,7 @@ const inputFirstname = document.getElementById("firstnameInput");
 const inputEmail = document.getElementById("emailInput");
 const inputPassword = document.getElementById("passwordInput");
 const inputValidationPassword = document.getElementById("validatePasswordInput");
-const btnValid = document.getElementById("btnValidSignup");
+const btnValid = document.getElementById("btnValidRegister");
 
 inputLastname.addEventListener("keyup", validateForm);
 inputFirstname.addEventListener("keyup", validateForm);
