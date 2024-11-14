@@ -11,7 +11,10 @@
         <form>
             <div class="mb-3">
                 <label for="InputPseudo" class="form-label">Pseudo :</label>
-                <input type="text" class="form-control" id="InputPseudo" placeholder="pseudo">
+                <input type="text" name="pseudo" class="form-control" id="InputPseudo" placeholder="pseudo">
+                <div class="invalid-feedback">
+                    Ce champ est requis.
+                </div>
             </div>
 
             <!-- 5 ETOILES-->
@@ -42,12 +45,12 @@
             </div>
 
             <div class="mb-3">
-                <label for="FormControlMessageContact" class="form-label">Votre avis :</label>
-                <textarea class="form-control" id="FormControlMessageContact" rows="3"
+                <label for="FormControlMessageAvis" class="form-label">Votre avis :</label>
+                <textarea class="form-control" name="textavis" id="FormControlMessageAvis" rows="3"
                     placeholder="Racontez-nous votre expérience"></textarea>
             </div>
             <div class="text-center">
-                <button type="submit" class="btn btn-bg-dark mt-4 px-3 py-2">Soumettre</button>
+                <button type="submit" class="btn btn-bg-dark mt-4 px-3 py-2" id="btn-avis">Soumettre</button>
             </div>
         </form>
     </div>

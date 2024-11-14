@@ -6,12 +6,39 @@
     </p>
 </section>
 
+<?php
+
+$errors = [];
+
+if (isset($_POST['loginUser'])) {
+    $monUser = verifyUserLoginPassword($pdo, $_POST['email'], $_POST['password']);
+
+    if ($monUser) {
+        // Se connecter à la session
+        $_SESSION['user'] = $monUser;
+        header('location:sessionAdmin.php');
+    } else {
+        // Afficher une erreur
+        $errors[] = "Email ou mot de passe incorrect";
+    }
+}
+?>
+
 <!-- SECTION : CONTAINER CONNEXION -->
 <section class="container_bg_secondary1 container p-5">
     <div class="container_form_style w-75">
         <div>
             <h4>CONNEXION</h4>
-            <form action="/pages/auth/loginPost.php">
+
+            <?php foreach ($errors as $error) { ?>
+
+                <div class="alert alert-danger role=" alert">
+                    <?= $error; ?>
+                </div>
+
+            <?php } ?>
+
+            <form action="/pages/auth/loginPost.php" method="POST">
                 <div class="row mt-5 mb-3">
                     <label for="emailInputCo" class="col-sm-2 col-form-label">Email :</label>
                     <div class="col-sm-10">

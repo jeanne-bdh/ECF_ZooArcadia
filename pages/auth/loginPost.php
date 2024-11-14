@@ -22,12 +22,12 @@ try {
     if ($stmt->rowCount() == 1) {
         $monUser = $stmt->fetch(PDO::FETCH_ASSOC);
         if (password_verify($passwordForm, $monUser['password'])) {
-            echo "Connexion réussie ! Bienvenue " . $monUser['lastname'] . $monUser['firstname'];
+            echo "Connexion réussie ! Bienvenue " . $monUser['firstname'] . " " . $monUser['lastname'];
         } else {
-            echo "Mot de passe incorrect";
+            echo "Email ou mot de passe incorrect";
         }
     } else {
-        echo "Utilisateur introuvable, êtes-vous sûr de votre email ?";
+        echo "Email ou mot de passe incorrect";
     }
 } catch (PDOException $e) {
     echo "Erreur de connexion à la base de données : " . $e->getMessage();
