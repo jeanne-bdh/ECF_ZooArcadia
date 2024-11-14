@@ -3,15 +3,15 @@ const emailInput = document.getElementById("InputEmail");
 const messageInput = document.getElementById("FormControlMessageContact");
 const btnContactForm = document.getElementById("btn-contact-form");
 
-titleInput.addEventListener("keyup", validateFormCo);
-emailInput.addEventListener("keyup", validateFormCo);
-messageInput.addEventListener("keyup", validateFormCo);
+titleInput.addEventListener("keyup", validateContact);
+emailInput.addEventListener("keyup", validateContact);
+messageInput.addEventListener("keyup", validateContact);
 
 // Fonction valide le formulaire
 function validateContact() {
-    const titleContactOk = validateTitleContact(titleInput);
+    const titleContactOk = validateText(titleInput);
     const emailContactOk = validateEmailContact(emailInput);
-    const messageContactOk = validateMessage(messageInput);
+    const messageContactOk = validateText(messageInput);
 
     // Pour que le bouton soit cliquable
     if (titleContactOk && emailContactOk && messageContactOk) {
@@ -22,11 +22,11 @@ function validateContact() {
     }
 }
 
-// Fonction valide le titre
-function validateTitleContact(input) {
-    const titleContactRegex = /.+/;
-    const titleContactUser = input.value;
-    if (titleContactUser.match(titleContactRegex)) {
+// Fonction valide le texte requis (titre & message)
+function validateText(input) {
+    const textContactRegex = /.+/;
+    const textContactUser = input.value;
+    if (textContactUser.match(textContactRegex)) {
         input.classList.add("is-valid");
         input.classList.remove("is-invalid");
         return true;
