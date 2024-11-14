@@ -5,7 +5,7 @@ const btnValidCo = document.getElementById("btn-validCo");
 inputEmailCo.addEventListener("keyup", validateFormCo);
 inputPasswordCo.addEventListener("keyup", validateFormCo);
 
-// Fonction valide le formulaire de connexion
+// Fonction valide le formulaire
 function validateFormCo() {
     const emailCoOk = validateEmailCo(inputEmailCo);
     const passwordCoOk = validatePasswordCo(inputPasswordCo);
