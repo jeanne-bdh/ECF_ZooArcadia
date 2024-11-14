@@ -1,3 +1,11 @@
+<?php
+
+require_once __DIR__ . "/session.php";
+
+$errors = [];
+
+?>
+
 <!-- SECTION : BIG TITLE -->
 <section class="big_title d-flex align-items-center">
     <p class="title_text_form text-white text-center fs-2 mx-auto">
@@ -5,24 +13,6 @@
         espace de connexion.
     </p>
 </section>
-
-<?php
-
-$errors = [];
-
-if (isset($_POST['loginUser'])) {
-    $monUser = verifyUserLoginPassword($pdo, $_POST['email'], $_POST['password']);
-
-    if ($monUser) {
-        // Se connecter à la session
-        $_SESSION['user'] = $monUser;
-        header('location:sessionAdmin.php');
-    } else {
-        // Afficher une erreur
-        $errors[] = "Email ou mot de passe incorrect";
-    }
-}
-?>
 
 <!-- SECTION : CONTAINER CONNEXION -->
 <section class="container_bg_secondary1 container p-5">
