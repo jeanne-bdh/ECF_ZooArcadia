@@ -42,9 +42,6 @@ require_once __DIR__ . "/../pages/auth/session.php";
                             <a class="nav-link" href="/contact">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/register">Inscription</a>
-                        </li>
-                        <li class="nav-item">
                             <?php if (isset($_SESSION['monUser'])) { ?>
                                 <a class="btn btn-primary me-2" href="/pages/auth/logout.php">Déconnexion</a>
                             <?php } else { ?>

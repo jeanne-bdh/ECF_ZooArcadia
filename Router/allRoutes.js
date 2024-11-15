@@ -15,6 +15,12 @@ export const allRoutes = [
     new Route("/login", "Connexion", "/pages/auth/login.php", "/js/auth/login.js"),
     new Route("/register", "Inscription", "/pages/admin/register.php", "/js/admin/register.js"),
     new Route("/sessionAdmin", "Session Admin", "/pages/admin/sessionAdmin.php"),
+    new Route("/dashboard", "Dashboard", "/pages/admin/dashboard.php"),
+    new Route("/servicesCRUD", "Services CRUD", "/pages/admin/servicesCRUD.php"),
+    new Route("/hoursCRUD", "Hours CRUD", "/pages/admin/hoursCRUD.php"),
+    new Route("/habitatsCRUD", "Habitats CRUD", "/pages/admin/habitatsCRUD.php"),
+    new Route("/animalsCRUD", "Animals CRUD", "/pages/admin/animalsCRUD.php"),
+    new Route("/reportVet", "Report Veterinary", "/pages/admin/reportVet.php"),
 ];
 
 //Le titre s'affiche comme ceci : Route.titre - websitename
