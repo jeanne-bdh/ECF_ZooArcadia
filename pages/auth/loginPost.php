@@ -27,7 +27,7 @@ try {
         // Se connecter à la session
         if (password_verify($passwordForm, $monUser['password'])) {
             $_SESSION['monUser'] = $monUser;
-            header('location: /../pages/admin/sessionAdmin.php');
+            header('location: /sessionAdmin');
         } else {
             // Le mot de passe est incorrect
             $errors[] = "Mot de passe incorrect (à changer)";

@@ -3,7 +3,6 @@ const btnAvis = document.getElementById("btn-avis");
 
 pseudoInput.addEventListener("keyup", validateAvis);
 
-
 // Fonction valide le formulaire
 function validateAvis() {
     const pseudoOk = validateText(pseudoInput);

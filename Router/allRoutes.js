@@ -14,6 +14,7 @@ export const allRoutes = [
     new Route("/test", "test", "/pages/auth/test.php"),
     new Route("/login", "Connexion", "/pages/auth/login.php", "/js/auth/login.js"),
     new Route("/register", "Inscription", "/pages/admin/register.php", "/js/admin/register.js"),
+    new Route("/sessionAdmin", "Session Admin", "/pages/admin/sessionAdmin.php"),
 ];
 
 //Le titre s'affiche comme ceci : Route.titre - websitename
