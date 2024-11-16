@@ -4,3 +4,9 @@
     "bootstrap-icons": "^1.11.3"
   }
 }
+
+{
+  "scripts": {
+    "build": "next build"
+  }
+}
