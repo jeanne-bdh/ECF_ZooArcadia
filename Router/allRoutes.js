@@ -5,13 +5,31 @@ export const allRoutes = [
     new Route("/", "Accueil", "/pages/home.html"),
     new Route("/services", "Nos services", "/pages/services.html"),
     new Route("/habitats", "Nos habitats", "/pages/habitats.html"),
+<<<<<<< HEAD
     new Route("/contact", "Contact", "/pages/contact.html"),
     new Route("/signin", "Connexion", "/pages/signin.html"),
     new Route("/formAvis", "Formulaire Avis", "/pages/formAvis.html"),
+=======
+    new Route("/contact", "Contact", "/pages/contact.php", "/js/contact.js"),
+    new Route("/formAvis", "Formulaire Avis", "/pages/formAvis.php", "/js/avis.js"),
+>>>>>>> main
     new Route("/listAvis", "Liste des avis", "/pages/listAvis.html"),
     new Route("/savane", "Savane", "/pages/savane.html"),
     new Route("/jungle", "Jungle", "/pages/jungle.html"),
     new Route("/marais", "Marais", "/pages/marais.html"),
+<<<<<<< HEAD
+=======
+    new Route("/test", "test", "/pages/auth/test.php"),
+    new Route("/login", "Connexion", "/pages/auth/login.php", "/js/auth/login.js"),
+    new Route("/register", "Inscription", "/pages/admin/register.php", "/js/admin/register.js"),
+    new Route("/sessionAdmin", "Session Admin", "/pages/admin/sessionAdmin.php"),
+    new Route("/dashboard", "Dashboard", "/pages/admin/dashboard.php"),
+    new Route("/servicesCRUD", "Services CRUD", "/pages/admin/servicesCRUD.php"),
+    new Route("/hoursCRUD", "Hours CRUD", "/pages/admin/hoursCRUD.php"),
+    new Route("/habitatsCRUD", "Habitats CRUD", "/pages/admin/habitatsCRUD.php"),
+    new Route("/animalsCRUD", "Animals CRUD", "/pages/admin/animalsCRUD.php"),
+    new Route("/reportVet", "Report Veterinary", "/pages/admin/reportVet.php"),
+>>>>>>> main
 ];
 
 //Le titre s'affiche comme ceci : Route.titre - websitename
