@@ -10,7 +10,7 @@ jobs:
 
     - name: Install Dependencies
       uses: actions/setup-node@v2
-      width:
+      with:
         node-version: '23'
 
     - name: Install npm dependencies
