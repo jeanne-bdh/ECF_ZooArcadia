@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . "/pages/header.php";
+require_once __DIR__ . "/../pages/header.php";
 
 ?>
 
@@ -10,6 +10,6 @@ require_once __DIR__ . "/pages/header.php";
 
 <?php
 
-require_once __DIR__ . "/pages/footer.php";
+require_once __DIR__ . "/../pages/footer.php";
 
 ?>
