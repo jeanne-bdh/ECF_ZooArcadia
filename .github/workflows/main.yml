@@ -15,7 +15,8 @@ jobs:
         username: bouchendhomme
         password: ${{ secrets.ftp_password }}
         server-dir: /www/
-        exclude: 
-        **/.git*
-        **/.git*/**
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
         
