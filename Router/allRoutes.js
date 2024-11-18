@@ -21,6 +21,7 @@ export const allRoutes = [
     new Route("/habitatsCRUD", "Habitats CRUD", "/pages/admin/habitatsCRUD.php"),
     new Route("/animalsCRUD", "Animals CRUD", "/pages/admin/animalsCRUD.php"),
     new Route("/reportVet", "Report Veterinary", "/pages/admin/reportVet.php"),
+    new Route("/cool", "cool", "/node-js-getting-started/index.js"),
 ];
 
 //Le titre s'affiche comme ceci : Route.titre - websitename
