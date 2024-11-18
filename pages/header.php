@@ -10,7 +10,7 @@ require_once __DIR__ . "/../pages/auth/session.php";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="/public/scss/main.css">
 
     <title>ZOO ARCADIA</title>
 </head>
@@ -21,7 +21,7 @@ require_once __DIR__ . "/../pages/auth/session.php";
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid">
-                <img src="images/Logo Arcadia.svg" alt="Logo Arcadia : un rhinocéros dans un soleil levant">
+                <img src="/public/assets/css/images/Logo Arcadia.svg" alt="Logo Arcadia : un rhinocéros dans un soleil levant">
                 <a class="navbar-brand ms-2" href="/">ZOO ARCADIA</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
